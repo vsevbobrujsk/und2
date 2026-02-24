@@ -10,18 +10,20 @@
   </head>
   <body>
     <header>
-      <h2>LOGO</h2>
       <nav>
-        <ul>
-          <li>hjem</li>
-          <li>om meg</li>
-          <li>prosjekter</li>
-        </ul>
+        <div class="wrapper">
+      <h2>LOGO</h2>
+        <div class="box">
+        <p>hjem</p>  
+        <p>om meg</p>
+        <p>prosjekter</p> 
+        </div>
+      </div>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <!-- First section = Hero / Home -->
         <h1>Velkommen!</h1>
         <p>
@@ -32,22 +34,23 @@
         </p>
       </section>
 
-      <section>
-        <!-- Second section = About (om meg) -->
-        <h2>Om meg</h2>
+      <section class="about">
+        <div class="aboutText">
+        <h2 class="about-title">Om meg</h2>
         <p>
           Lorem ipsum dolor <strong> sit amet consectetur </strong> adipisicing
           elit. Temporibus eaque magni provident voluptates neque facere, et
           porro molestiae tenetur eos exercitationem voluptatum delectus
           expedita consequatur facilis nisi harum aspernatur illum!
         </p>
-        <h3>Nye paragraph</h3>
+        </div>
         <img
+        class="aboutIMG"
           src="https://images.unsplash.com/photo-1770008022916-bd44a163f524?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="404 something went wrong"
         />
       </section>
-      <section>
+      <section class="projects">
         <!-- Third section = Prosjekter -->
         <h3>Prosjekter</h3>
 
@@ -59,7 +62,7 @@
     </main>
 
     <footer>
-      <p>Laget av Viktoria i Kodeloften</p>
+      <div class="wrapper">Laget av Viktoria i Kodeloften</div>
     </footer>
   </body>
 </html>
