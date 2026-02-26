@@ -43,8 +43,10 @@ footer {
   }
 }
 
-.aboutText, 
-.aboutIMG {
-  width: 50%;
-
+.aboutText, {
+  width: 400px;
+}
+.aboutIMG { 
+  height: 300px;
+width: 400px;
 }
