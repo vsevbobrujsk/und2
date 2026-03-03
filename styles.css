@@ -1,13 +1,12 @@
 header {
 
 .box > * {
-    border: 2px solid rgb(96 139 168);
+    border: 2px solid rgb(168, 127, 96);
     border-radius: 5px;
-    background-color: rgba(7, 12, 152, 0.2);
+    background-color: rgba(244, 221, 185, 0.2);
   }
   
   .box {
-    border: 2px dotted rgb(96 139 168);
     display: flex;
     flex-direction: row-reverse;
     justify-content: normal;
@@ -19,6 +18,10 @@ header {
     border-radius: 5px;
     background-color: #fff4e6;
   }
+}
+
+body {
+  background: url("12.avif") center / cover no-repeat fixed;
 }
 
 .hero {
@@ -43,10 +46,41 @@ footer {
   }
 }
 
-.aboutText, {
+.aboutText {
   width: 400px;
 }
 .aboutIMG { 
   height: 300px;
 width: 400px;
+}
+
+.three-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.three-boxes > section {
+  height: auto;                 
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
