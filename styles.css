@@ -102,21 +102,12 @@ body {
     display: inline;
     align-items: center;
     gap: 8px;
-  
-    margin-top: 15px;
-    padding: 10px 16px;
-  
-    background: #24292f;
-    color: white;
-    text-decoration: none;
-  
+    background: #fff4e6;
+    color: rgb(60, 6, 6);
     border-radius: 8px;
-    font-weight: 600;
-    transition: 0.3s;
-  }
-  
-  .github-btn:hover {
-    background: #444c56;
-    transform: translateY(-2px);
+    font-weight: 300;
+    padding: 1px 1px;
+    border-color: rgb(60, 6, 6);
+    border-style: solid;
   }
   
