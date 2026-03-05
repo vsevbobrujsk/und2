@@ -27,8 +27,11 @@ header {
   }
 }
 
-body {
-  background: url("12.avif") center / cover no-repeat fixed;
+.body {
+  background: url("12.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero {
@@ -38,6 +41,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+
 .about{
 height: 100vh;
 display: flex;
