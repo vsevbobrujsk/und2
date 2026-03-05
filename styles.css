@@ -1,7 +1,7 @@
 header {
 
 .box > * {
-    border: 2px solid rgb(168, 127, 96);
+    border: 2px solid rgb(83, 12, 12);
     border-radius: 5px;
     background-color: rgba(244, 221, 185, 0.2);
   }
@@ -14,14 +14,14 @@ header {
   }
 
   .box p {
-    border: 2px solid rgb(168, 127, 96);
+    border: 2px solid rgb(60, 6, 6);
     border-radius: 5px;
     background-color: rgba(152, 75, 7, 0.2);
     padding: 8px 16px;
   }
   
   .wrapper {
-    border: 2px solid #f76707;
+    border: 2px solid rgb(60, 6, 6);
     border-radius: 5px;
     background-color: #fff4e6;
   }
@@ -69,7 +69,7 @@ header {
 
 .ProjectCard {
   width: 300px;
-  border: 2px solid #c7c7c7;
+  border: 2px solid rgb(60, 6, 6);
   border-radius: 10px;
   text-align: center;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 .wrapper {
-  border: 2px solid #f76707;
+  border: 2px solid rgb(60, 6, 6);
   border-radius: 5px;
   background-color: #fff4e6;
 }
