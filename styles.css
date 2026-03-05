@@ -12,6 +12,13 @@ header {
     justify-content: normal;
     writing-mode: horizontal-tb;
   }
+
+  .box p {
+    border: 2px solid rgb(168, 127, 96);
+    border-radius: 5px;
+    background-color: rgba(152, 75, 7, 0.2);
+    padding: 8px 16px;
+  }
   
   .wrapper {
     border: 2px solid #f76707;
