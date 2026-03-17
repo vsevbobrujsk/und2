@@ -11,6 +11,8 @@ header {
     flex-direction: row-reverse;
     justify-content: normal;
     writing-mode: horizontal-tb;
+    position: sticky; 
+    top: 0;
   }
 
   .box p {
